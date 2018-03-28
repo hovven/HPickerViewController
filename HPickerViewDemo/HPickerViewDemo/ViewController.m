@@ -20,8 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
--(void)viewWillAppear:(BOOL)animated{
-    //create Arrays for each components you have
+-(void)viewDidAppear:(BOOL)animated{
     NSArray *colors = [NSArray arrayWithObjects: @"Red", @"Green", @"Blue", @"Yellow", nil];
     NSArray *counts = [NSArray arrayWithObjects: @"1", @"2", @"3", @"4", nil];
     NSArray *days = [NSArray arrayWithObjects: @"Saturday",@"Sunday", @"Monday", @"Wednesday", @"Friday", nil];
@@ -39,13 +38,11 @@
     
     // Present it
     [self presentViewController:pickerViewController animated:YES completion:nil];
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

@@ -115,7 +115,7 @@ static NSTimeInterval const HAnimatedTransitionDuration = 0.4;
     _selectButton = [UIButton buttonWithType:UIButtonTypeSystem];
     _selectButton.translatesAutoresizingMaskIntoConstraints = NO;
     [_selectButton addTarget:self action:@selector(didTouchSelectButton:) forControlEvents:UIControlEventTouchUpInside];
-    [_selectButton setTitle:NSLocalizedString(@"done", nil) forState:UIControlStateNormal];
+    [_selectButton setTitle:NSLocalizedString(@"ok", nil) forState:UIControlStateNormal];
     
     CGFloat fontSize = _selectButton.titleLabel.font.pointSize;
     _selectButton.titleLabel.font = [UIFont boldSystemFontOfSize:fontSize];
