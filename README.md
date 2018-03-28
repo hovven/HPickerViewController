@@ -2,6 +2,8 @@
 
 UIPickerView modally presented with iOS 7 custom transitions and Custom components
 
+<p align="center"><img src="github-assets/hpickercontroller.gif"/></p>
+
 ## Installation
 
 ### Manually
