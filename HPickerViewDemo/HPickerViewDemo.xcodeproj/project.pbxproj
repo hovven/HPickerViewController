@@ -307,8 +307,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A4VK52T7L2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HPickerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hoven.HPickerViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,8 +322,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A4VK52T7L2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HPickerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hoven.HPickerViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
